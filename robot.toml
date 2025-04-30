@@ -1,0 +1,5 @@
+python-path = ["resources", "lib", "data",".", "variables"]
+output-dir = "reports"
+log-level = "TRACE"
+
+

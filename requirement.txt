@@ -1,0 +1,10 @@
+# Robot specific
+robotframework==7.1.1
+robotframework-dependencylibrary
+robotframework-requests
+robotframework-jsonlibrary
+robotframework-datadriver[XLS]
+robotframework-csvlibrary
+pytz~=2023.3.post1
+robotframework-pabot
+robotframework-retryfailed
