@@ -1,0 +1,37 @@
+SYSTEM_ENV: "development"
+API_CODE: "TEST_API"
+SYSTEM_TIMEOUT: 30
+SYSTEM_RETRY: 3
+
+# URL Configuration
+URLS:
+  development:
+    regular:
+      BASE_URL: "https://dev-api.example.com"
+      API_VERSION: "v1"
+    mock:
+      BASE_URL: "https://dev-mock.example.com"
+      API_VERSION: "v1"
+  staging:
+    regular:
+      BASE_URL: "https://staging-api.example.com"
+      API_VERSION: "v1"
+    mock:
+      BASE_URL: "https://staging-mock.example.com"
+      API_VERSION: "v1"
+  production:
+    regular:
+      BASE_URL: "https://api.example.com"
+      API_VERSION: "v1"
+    mock:
+      BASE_URL: "https://mock.example.com"
+      API_VERSION: "v1"
+
+ENDPOINTS:
+  AUTH: "/auth"
+  USERS: "/users"
+  HOTELS: "/hotels"
+  BOOKINGS: "/bookings"
+
+# Default URL type (regular or mock)
+DEFAULT_URL_TYPE: "regular" 

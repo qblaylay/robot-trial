@@ -8,7 +8,6 @@ Test Setup    Setup Test
 
 
 *** Variables ***
-${RANDOM_NUMBER}                Generate Random String    10    [LETTERS]
 
 
 *** Test Cases ***

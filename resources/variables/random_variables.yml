@@ -1,0 +1,6 @@
+# Variables that will be generated randomly for each test execution
+random:
+  RANDOM_STRING: ""
+  RANDOM_STRING_UPPER: ""
+  RANDOM_INT: ""
+  NEW_VARIABLE: "" 
